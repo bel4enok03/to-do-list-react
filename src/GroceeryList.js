@@ -28,7 +28,7 @@ export class GroceryList extends Component {
 	}
 
 	crossedWord(event) {
-		const li = event.target;
+		const li = event.currentTarget;
 		li.classList.toggle('crossed');
 	}
 
